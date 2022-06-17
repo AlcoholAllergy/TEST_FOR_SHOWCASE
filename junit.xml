@@ -1,0 +1,316 @@
+<testsuites name="jest tests" tests="6" failures="6" time="0.43">
+  <testsuite name="Hacker Dormitory" errors="0" failures="6" skipped="0" timestamp="2022-06-16T16:09:14" time="0.43" tests="6">
+    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.013">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:36:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.002">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:50:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.002">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:57:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.002">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:65:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.003">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:79:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.003">
+      <failure>TypeError: Cannot destructure property &apos;showError&apos; of &apos;(0 , _student.useStudentContext)(...)&apos; as it is undefined.
+    at App (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.js:11:11)
+    at renderWithHooks (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:82:26)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:23:17)
+    at Object.asyncJestLifecycle (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+      <failure>TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyDescriptor (&lt;anonymous&gt;)
+    at setNativeValue (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:674:14)
+    at Object.createEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:628:7)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/dom/dist/events.js:649:68)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:148:40
+    at batchedUpdates$1 (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Function.change (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/@testing-library/react/dist/index.js:147:28)
+    at Object.&lt;anonymous&gt; (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/src/App.test.js:87:15)
+    at Object.asyncJestTest (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/alcoholallergy/coolthings/interview projects/hacker-domitory/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
