@@ -8,11 +8,10 @@ const TEST_IDS = {
   joiningDateId: 'joiningDate',
   addBtnId: 'addBtn',
   errorMsgId: 'errorMsg',
-  residentsNameList: 'residentsNameList'
+  residentsNameList: 'residentsNameList',
 };
 
 describe('Hacker Dormitory', () => {
-
   let getByTestId;
   let txtInput;
   let dateInput;
@@ -36,6 +35,7 @@ describe('Hacker Dormitory', () => {
     fireEvent.change(txtInput, { target: { value: 'Adam' } });
     fireEvent.change(dateInput, { target: { value: '2020-10-10' } });
     fireEvent.click(addButton, { button: '0' });
+    console.log('input successed!');
     expect(list.children[0].textContent.toLowerCase()).toEqual('adam');
 
     fireEvent.change(txtInput, { target: { value: 'Dhilip' } });
@@ -66,7 +66,9 @@ describe('Hacker Dormitory', () => {
     fireEvent.change(dateInput, { target: { value: '2020-10-10' } });
     fireEvent.click(addButton, { button: '0' });
     let error = getByTestId(TEST_IDS.errorMsgId);
-    expect(error.textContent).toEqual('Sorry, Anderson is not a verified student!');
+    expect(error.textContent).toEqual(
+      'Sorry, Anderson is not a verified student!'
+    );
 
     fireEvent.change(txtInput, { target: { value: 'dam' } });
     fireEvent.change(dateInput, { target: { value: '2019-10-10' } });
@@ -87,7 +89,6 @@ describe('Hacker Dormitory', () => {
     fireEvent.change(txtInput, { target: { value: 'Adam' } });
     fireEvent.change(dateInput, { target: { value: '2020-10-10' } });
     fireEvent.click(addButton, { button: '0' });
-
 
     fireEvent.change(txtInput, { target: { value: 'Dhilip' } });
     fireEvent.change(dateInput, { target: { value: '2020-10-10' } });

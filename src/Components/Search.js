@@ -32,11 +32,13 @@ function Search() {
   const { showError, validStudents, setStudentState, residentsList } =
     useStudentContext();
   const [userInput, setUserInput] = useState(initialInput);
+  const { studentName, joiningDate } = userInput;
+  console.log(userInput);
+
   const onChangeHandler = (e) => {
     //comments
-    const fieldName = e.target.id;
-    const inputValue = e.target.value;
-    setUserInput({ ...userInput, [fieldName]: inputValue });
+    const { name, value } = e.target;
+    setUserInput({ ...userInput, [name]: value });
   };
 
   const clearInput = () => {
@@ -97,7 +99,7 @@ function Search() {
         showError: false,
       };
     });
-  }, [residentsList]);
+  }, [residentsList, setStudentState]);
 
   return (
     <div className='my-50 layout-row align-items-end justify-content-end'>
@@ -106,10 +108,11 @@ function Search() {
         <div>
           <input
             id='studentName'
+            name='studentName'
             data-testid='studentName'
             type='text'
             className='mr-30 mt-10'
-            value={userInput.studentName}
+            value={studentName}
             onChange={onChangeHandler}
           />
         </div>
@@ -119,10 +122,11 @@ function Search() {
         <div>
           <input
             id='joiningDate'
+            name='joiningDate'
             data-testid='joiningDate'
             type='date'
             className='mr-30 mt-10'
-            value={userInput.joiningDate}
+            value={joiningDate}
             onChange={onChangeHandler}
           />
         </div>

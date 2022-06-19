@@ -1,8 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { STUDENTS } from '../studentsList';
 
-const StudentContext = React.createContext();
-
 const initialStudentState = {
   validStudents: STUDENTS,
   residentsList: [],
@@ -12,6 +10,7 @@ const initialStudentState = {
   errorMsg: '',
   setStudentState: () => null,
 };
+export const StudentContext = React.createContext(initialStudentState);
 
 const StudentProvider = ({ children }) => {
   const [studentState, setStudentState] = useState(initialStudentState);

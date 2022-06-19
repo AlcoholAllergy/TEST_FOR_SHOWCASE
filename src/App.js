@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import ResidentsList from './Components/ResidentsList';
 import Search from './Components/Search';

@@ -8,7 +8,6 @@ const errorMsgMap = {
 
 function Error() {
   const { currentStudentName, errorType } = useStudentContext();
-  console.log(currentStudentName, errorType);
 
   return (
     <div data-testid='errorMsg' className='alert error mt-20 slide-up-fade-in'>
